@@ -8,15 +8,20 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
     "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsdoc": "^3.4.3",
+    "jsonwebtoken": "*",
+    "mocha": "^3.4.2",
+    "mongoose": "*",
     "passport": "*",
     "passport-jwt": "*"
   },
   "author": "Jason Codrington",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.0.0"
+  }
 }
