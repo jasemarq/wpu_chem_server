@@ -1,3 +1,8 @@
+var chai = require('chai');
+var chaiHttp = require('chai-http');
+var server = require('../app');
+var should = chai.should();
+
 describe('User', function() {
 	it('should list ALL users on /users GET');
 	it('should list a SINGLE user on /users/<id> GET');
